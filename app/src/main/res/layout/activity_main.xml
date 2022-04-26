@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/singin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:text="ברוך הבא"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/singin"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#50ffff"
+            android:drawableRight="@drawable/ic_baseline_person_outline_24"
+            android:gravity="center"
+            android:hint="שם משתמש"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etUsername"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#50ffff"
+            android:drawableRight="@drawable/ic_baseline_info_24"
+            android:gravity="center"
+            android:hint="סיסמא"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:hint="כניסה" />
+
+        <TextView
+            android:id="@+id/forgotpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bLogin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="שחכת סיסמא?"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/socialicons"
+            android:layout_centerHorizontal="true"
+            android:text="התחברות דרך" />
+
+        <TextView
+            android:id="@+id/tvRegisterLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="357dp"
+            android:text="להירשם"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/socialicons"
+            android:layout_alignParentBottom="true"
+            android:gravity="center">
+        <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/fbBtn"
+                android:src="@drawable/facbook"
+            android:contentDescription="@string/todo" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+

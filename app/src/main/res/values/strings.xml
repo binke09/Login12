@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Login12</string>
+    <string name="title_activity_rgister">Rgister</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="facebook_app_id">571674030749921</string>
+    <string name="fb_login_protocol_scheme">fb571674030749921</string>
+    <string name="facebook_client_token">123456789</string>
+    <string name="todo">TODO</string>
+
+</resources>

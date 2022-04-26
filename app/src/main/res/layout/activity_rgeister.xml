@@ -1,0 +1,64 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".Rgeister">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="שם"
+            />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="שם משתמש"
+            />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="סיסמא"
+            />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+
+
+        <Button
+            android:id="@+id/bRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="הרשמה" />
+
+        <Button
+            android:id="@+id/bLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="יציאה" />
+    </LinearLayout>
